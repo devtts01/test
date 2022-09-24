@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.app-container {
+  position: relative;
+  h1 {
+    margin: 0;
+  }
+
+  &.modal {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 20;
+    background-color: rgba($color: #000, $alpha: 0.5);
+  }
+}
+
+.full {
+  flex: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.page-title {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.hover {
+  &:hover {
+    cursor: pointer;
+  }
+}

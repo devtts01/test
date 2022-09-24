@@ -1,0 +1,55 @@
+// .shopCointToggle-container{
+//     display: flex;
+//     width: 123px;
+//     .css-1ym3ssn-Icon {
+//         display:none;
+//     }
+//     .css-ewpks6[data-checked]{
+//         background-color: #FBC300;
+//     }
+//     .css-ewpks6:not([data-checked]){
+//         background-color: #EAEDF3;
+//     }
+//     .shopCoinToggle-label{
+//         margin: auto;
+//         width: 85px;
+//         height: 22px;
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 14px;
+//         line-height: 22px;
+//         color: #000000;
+//     }
+// }
+.shopCointToggle-container{
+    display: flex;
+    span {
+        display:none;
+    }
+    label[data-checked]{
+        background-color: #FBC300;
+    }
+    label[data-checked]:hover{
+        background-color: #FBC300;
+    }
+    label:not([data-checked]){
+        background-color: #EAEDF3;
+    }
+    label:not([data-checked]):hover{
+        background-color: #EAEDF3;
+    }
+    .shopCoinToggle-label{
+        margin-left: 8px;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 22px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+    }
+}
+    
+
+

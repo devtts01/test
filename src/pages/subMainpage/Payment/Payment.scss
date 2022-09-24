@@ -1,0 +1,58 @@
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .header {}
+
+  .content {
+    background-color: white;
+    border-radius: 8px;
+    height: 100%;
+    padding: 20px;
+
+    .tool-zone {
+      display: flex;
+      align-items: center;
+
+      .shopCoinButton-container {
+        margin-left: auto;
+      }
+
+      .textFieldShopCoin-input {
+        border: 1.5px solid #E0E0E0;
+        border-radius: 8px 8px 8px 8px;
+        height: 48px;
+        width: 250px;
+      }
+
+      .textFieldShopCoin-message {
+        display: none;
+      }
+    }
+
+    .table-footer-tool {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      color: #9E9E9E;
+    }
+
+    .shopCoinTable-container {
+      nav {
+        button {
+          margin-left: 5px;
+          margin-right:5px;
+          padding-left:0;
+          padding-right:0;
+          width: 40px;
+          height: 38px;
+          border-radius: 4px;
+          background-color: #FFFFFF
+          ;
+        }
+      }
+    }
+  }
+}

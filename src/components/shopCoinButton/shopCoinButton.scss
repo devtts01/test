@@ -1,0 +1,51 @@
+.shopCoinButton-container {
+
+  .buttonCoin {
+    border-radius: 8px;
+    background: #FBC300;
+    min-width: 138px;
+    height: 46px;
+    padding: 12px 24px;
+    justify-content: center;
+  }
+  .buttonCoin:hover{
+    background: #C49A00;
+  }
+  .buttonCoin[disabled]{
+    border-radius: 8px;
+    background: #DBC679;
+    width: 138px;
+    height: 46px;
+    padding: 12px 24px;
+    justify-content: center;
+  }
+  .buttonCoin span{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    .shopCoinButton-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #000000;
+      padding-left: 6.31px;
+      padding-right: 6.9px;
+    }
+
+    .shopCoinButton-iconBefore {
+      width: 18px;
+      height: 18px;
+      justify-content: center;
+      display: flex;
+    }
+
+    .shopCoinButton-iconAfter {
+      width: 18px;
+      height: 18px;
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+}

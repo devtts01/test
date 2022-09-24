@@ -1,0 +1,23 @@
+.button-with-popup-container {
+  position: relative;
+
+  .menu-wrapper {
+    position: absolute;
+    right: 100%;
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.1);
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    z-index: 2;
+    background-color: white;
+    .item {
+      padding: 16px;
+      display:flex;
+      img{
+        margin-right:8px;
+      }
+      &:hover {
+        background-color: #f4f3f3;
+      }
+    }
+  }
+}

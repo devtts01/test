@@ -1,0 +1,48 @@
+.loading-container {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.555);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+
+  svg {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotation 1s infinite linear;
+
+    circle {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke-width: 10;
+      stroke: rgba(128, 128, 128, 0.315);
+      stroke-linecap: round;
+      transform: translate(10px, 10px);
+    }
+
+    circle:nth-child(2){
+      stroke: #FBC300;
+      stroke-dasharray: 188px;
+
+      stroke-dashoffset: 65px;
+      
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+          stroke: red;
+        }
+      }
+    }
+
+    
+  }
+}

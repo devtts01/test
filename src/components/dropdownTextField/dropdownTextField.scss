@@ -1,0 +1,13 @@
+.suggest-textField-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .data-dropdown{
+        max-height: 468px;
+        padding-top: 32px;
+        padding-left: 24px;
+        padding-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+    }
+}

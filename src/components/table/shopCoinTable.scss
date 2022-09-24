@@ -1,0 +1,54 @@
+.shopCoinTable-container {
+  position: relative;
+  nav{
+    button{
+      border: 1px solid #E0E0E0;
+      margin: 5px;
+    }
+  }
+  .table-footer-tool {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10px;
+    right: 0;
+
+    .item-per-page {
+      margin-right: 10px;
+    }
+  }
+  table {
+    thead{
+      tr th 
+      { 
+        width: auto;
+        height: 50px;
+        background: #FAFAFA;
+        border-width: 1px 1px 1px 0px;
+        border-style: solid;
+        border-color: #E0E0E0;
+        padding-top: 16px !important;
+        padding-right: 40px;
+        padding-bottom: 16px;
+        padding-left: 14px;
+        span{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #616161;
+          padding-left: 10px;
+          width: 19px;
+          height: 18px;
+        }
+      }
+    }
+  }
+  tbody{
+    tr td {
+        padding-top: 16px !important;
+        padding-bottom: 16px;
+        padding-left: 14px!important;
+    }
+  }
+}

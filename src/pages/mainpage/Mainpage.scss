@@ -1,0 +1,17 @@
+.mainpage {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .main-content {
+    display: flex;
+    flex: 1;
+    .right-content {
+      padding: 20px;
+      // flex: 1;
+      width: calc(100vw - 200px);
+    }
+  }
+
+}

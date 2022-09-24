@@ -1,0 +1,66 @@
+.login-page-container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  .textFieldShopCoin-container{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom:12px;
+  }
+  .bg {
+    width: 100%;
+  }
+
+  .form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    min-width: 25%;
+
+    img {
+      width: 264px;
+    }
+
+    .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    .login {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .forgot-pass {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FBB000;
+        width: 100%;
+        text-align: right ;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .shopCoinButton-container {
+      width: 100%;
+
+      .buttonCoin {
+        width: 100%;
+      }
+    }
+    
+  }
+}

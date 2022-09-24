@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  // overflow: hidden;
+
+  .right-content {
+    margin-left: auto;
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}

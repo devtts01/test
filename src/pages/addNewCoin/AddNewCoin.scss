@@ -1,0 +1,118 @@
+.add-new-coin-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .button-update-cancel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: auto;
+    .buttonCoin{
+      margin-left: 16px;
+    }
+  }
+  .content {
+    background-color: white;
+    border-radius: 8px;
+    height: 100%;
+    padding: 20px;
+    position:relative;
+    .table-blacklist-none{
+      
+      img{
+        margin-left: 40%;
+        width: 253px;
+        height: 228.81px;
+      }
+    }
+    .coin-information {
+      height: 28px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .search-blacklist {
+      display: flex;
+      overflow: auto;
+      align-items: center;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      .suggest-textField-container{
+        .data-dropdown{
+          max-height: 250px;
+          min-width: 82.5%;
+          padding-top: 0;
+          padding-left: 20px;
+          padding-bottom: 0;
+          margin-top: 52px;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          z-index: 9;
+          background-color: #FFFFFF;
+          border: 2px solid #E0E0E0;
+        }
+      }
+      .textFieldShopCoin-container{
+        margin-right: 16px;
+        .textFieldShopCoin-input{
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+      }
+      
+      .shopCoinButton-container{
+        margin-bottom: auto;
+      }
+    }
+
+    .textfield-coin-info {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-top: 24px;
+
+      .textFieldShopCoin-container {
+        margin-right: 24px;
+        margin-bottom: 24px;
+
+        .textFieldShopCoin-input {
+          height: 46px;
+          border: 1.5px solid #E0E0E0;
+          border-radius: 8px;
+        }
+
+        .textFieldShopCoin-message {
+          display: none;
+        }
+      }
+    }
+
+    .user-setting {
+      .user-setting-title {
+        width: 121px;
+        height: 28px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+      }
+
+      .user-to-hide {
+        width: 256px;
+        height: 22px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+
+    .toggle-hiden {
+      margin-top: 32px;
+    }
+  }
+}

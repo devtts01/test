@@ -1,0 +1,37 @@
+.checkboxShopCoin-container{
+    overflow: auto;
+    input + svg rect:first-of-type{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1.5px solid #E0E0E0;
+        stroke: #E0E0E0;
+        stroke-width: 1.5px;
+        border-radius: 3px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+    label:hover input + svg rect:first-of-type{
+            width: 16px;
+            height: 16px;
+            background: #FFFFFF;
+            border: 1.5px solid #E0E0E0;
+            stroke: #FCCF33;
+            stroke-width: 1.5px;
+            border-radius: 3px;
+        }
+    input:checked + svg{
+        --checkbox-background-color:#FBC300;
+    }
+    input:checked:hover + svg {
+        --checkbox-background-color:#FBC300;
+    }
+    path{
+        transform: translate(2px,2.5px) 
+    }
+    input:disabled:checked + svg{
+        --checkbox-background-color: #E0E0E0;
+    }
+}

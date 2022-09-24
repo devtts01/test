@@ -1,0 +1,26 @@
+.settingCoin-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .content {
+    background-color: white;
+    border-radius: 8px;
+    height: 100%;
+    padding: 20px;
+    .table-footer-tool {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      color: #9e9e9e;
+    }
+    .tool-zone {
+      display: flex;
+      .shopCoinButton-container {
+        margin-left: auto;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
